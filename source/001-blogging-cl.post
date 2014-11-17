@@ -5,4 +5,25 @@ date: 2014-11-16 20:40:10
 format: md
 ;;;;;
 
-Now a new blog.
+Hardly anyone would know that but I used to have another blog @
+rlazo.org, but I no longer have the domain or the blog for that
+matter. I starting anew with this blog using a static blog engine
+written in Common Lisp called
+[coleslaw](https://github.com/redline6561/coleslaw) and
+[github pages](https://pages.github.com/).
+
+Why using github pages? It's easy, and has far less moving parts than
+any other option I can think off. I don't have a server to manage, and
+the publish blog is static html. The only way of changing the contents
+of the blog is changing them in the repo. So, it's more secure than
+more dynamic options, like wordpress.
+
+Why coleslaw? Well, I'm a fanboy of Common Lisp, and the code isn't
+complicated or long, so making changes, if needed, *should be easy
+(TM)*. The other two pieces of software that I use the most,
+[my editor](http://www.gnu.org/software/emacs/) and my
+[window manager](https://github.com/stumpwm/stumpwm), are also written
+in lisp. You can see a trend here.
+
+Hopefully I'll be posting more, and some of the contents may even be
+in spanish. Wish me luck.

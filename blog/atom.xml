@@ -1,12 +1,64 @@
 <?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom"> <title>Misc ramblings, by rlazo</title> <link href="http://rlazo.github.io/blog"/> <link type="application/atom+xml" rel="self" href="http://rlazo.github.io/blog/atom.xml"/> <updated>Mon, 17 Nov 2014 01:08:06 +0000</updated> <author> <name>Rodrigo Lazo</name> </author> <entry> <link type="text/html" rel="alternate" href="http://rlazo.github.io/blog/posts/Learning-some-R.html"/> <title>Learning some R</title> <published>2014-11-16 21:40:10</published> <updated>2014-11-16 21:40:10</updated> <author> <name>Rodrigo Lazo</name> <uri>http://rlazo.github.io/blog</uri> </author> <content type="html">&lt;p&gt;This weekend I&#039;ve been helping my brother with an issue with a R
-script he needs for his masters. And &lt;em&gt;my God&lt;/em&gt;, that was one ugly
+<feed xmlns="http://www.w3.org/2005/Atom"> <title>Misc ramblings, by rlazo</title> <link href="http://rlazo.github.io/blog"/> <link type="application/atom+xml" rel="self" href="http://rlazo.github.io/blog/atom.xml"/> <updated>Mon, 17 Nov 2014 02:00:58 +0000</updated> <author> <name>Rodrigo Lazo</name> </author> <entry> <link type="text/html" rel="alternate" href="http://rlazo.github.io/blog/posts/Learning-some-R.html"/> <title>Learning some R</title> <published>2014-11-16 21:40:10</published> <updated>2014-11-16 21:40:10</updated> <author> <name>Rodrigo Lazo</name> <uri>http://rlazo.github.io/blog</uri> </author> <content type="html">&lt;p&gt;This weekend I&#039;ve been helping my brother with an issue with an R
+script he needs for his masters. And &lt;strong&gt;my God&lt;/strong&gt;, that was one ugly
 script. It was pretty obvious that the original author, not my
 brother, didn&#039;t know very well how to write good scripts, neither was
-interested in learning. A big hairy mess of R code. It was my first
+interested in learning. What a big hairy mess of R code. It was my first
 time working with R and, while I didn&#039;t find it as ugly as I
 originally though, I hope that I don&#039;t have to mess with it
 too often.&lt;/p&gt;
-</content> </entry><entry> <link type="text/html" rel="alternate" href="http://rlazo.github.io/blog/posts/Blogging-again-powered-by-coleslaw.html"/> <title>Blogging again, powered by coleslaw</title> <published>2014-11-16 20:40:10</published> <updated>2014-11-16 20:40:10</updated> <author> <name>Rodrigo Lazo</name> <uri>http://rlazo.github.io/blog</uri> </author> <content type="html">&lt;p&gt;Now a new blog.&lt;/p&gt;
-</content> </entry><entry> <link type="text/html" rel="alternate" href="http://rlazo.github.io/blog/posts/foo.html"/> <title>foo</title> <published>2014-11-13 23:55:10</published> <updated>2014-11-13 23:55:10</updated> <author> <name>Rodrigo Lazo</name> <uri>http://rlazo.github.io/blog</uri> </author> <content type="html">&lt;p&gt;My post is misc&lt;/p&gt;
+
+&lt;p&gt;For those of you that don&#039;t know, &lt;a href=&quot;http://www.r-project.org/&quot; &gt;R&lt;/a&gt; is a
+programming language mostly used for statistics. Actually, from what
+I&#039;ve read, it&#039;s mostly referred to as a &lt;em&gt;software environment&lt;/em&gt;. What&#039;s
+the difference? Well, it has a
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop&quot; &gt;REPL&lt;/a&gt;
+and it&#039;s usually used inside a sort of IDE like
+&lt;a href=&quot;http://www.rstudio.com/&quot; &gt;RStudio&lt;/a&gt;. But, unlike Python or Lisp, that
+you usally use the REPL for testing and development, but you write
+your &lt;em&gt;real&lt;/em&gt; code in a file, in R most of the beginners usually work
+only in the REPL, and the file is more like a history of ran commands
+than a cohesive script. And, because there is a lot of people that
+uses R but are not very interested in programming per-se, the scripts
+are extremely brittle and only work under very specific assumptions,
+there are no comments, a lot of lines are just debugging commands that
+only make sense in the repl, dead variables left from previous
+experiments, and a long etc.&lt;/p&gt;
+
+&lt;p&gt;Getting the original code to a readable state took us two days, and
+it&#039;s not done yet. While not knowing R did slow us down somewhat
+considerably, the worst part was trying to understand what the code
+was trying to do. On the upside, this was a great opportunity to
+explain to my brother about code readability, de-compsition, comments,
+top-down and bottom-up designs, etc. After all the pain of having to
+work through a great example of what happens if you don&#039;t use those
+concepts, he was an eager and learner.&lt;/p&gt;
+
+&lt;p&gt;This remind me of some wise words a teacher told me once: &lt;em&gt;&amp;quot;you are
+only going to learn the true value of these good practices the day you
+have to painfully work on a code that doesn&#039;t follow them&amp;quot;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Amen.&lt;/p&gt;
+</content> </entry><entry> <link type="text/html" rel="alternate" href="http://rlazo.github.io/blog/posts/Blogging-again-powered-by-coleslaw.html"/> <title>Blogging again, powered by coleslaw</title> <published>2014-11-16 20:40:10</published> <updated>2014-11-16 20:40:10</updated> <author> <name>Rodrigo Lazo</name> <uri>http://rlazo.github.io/blog</uri> </author> <content type="html">&lt;p&gt;Hardly anyone would know that but I used to have another blog @
+rlazo.org, but I no longer have the domain or the blog for that
+matter. I starting anew with this blog using a static blog engine
+written in Common Lisp called
+&lt;a href=&quot;https://github.com/redline6561/coleslaw&quot; &gt;coleslaw&lt;/a&gt; and
+&lt;a href=&quot;https://pages.github.com/&quot; &gt;github pages&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Why using github pages? It&#039;s easy, and has far less moving parts than
+any other option I can think off. I don&#039;t have a server to manage, and
+the publish blog is static html. The only way of changing the contents
+of the blog is changing them in the repo. So, it&#039;s more secure than
+more dynamic options, like wordpress.&lt;/p&gt;
+
+&lt;p&gt;Why coleslaw? Well, I&#039;m a fanboy of Common Lisp, and the code isn&#039;t
+complicated or long, so making changes, if needed, &lt;em&gt;should be easy
+(TM)&lt;/em&gt;. The other two pieces of software that I use the most,
+&lt;a href=&quot;http://www.gnu.org/software/emacs/&quot; &gt;my editor&lt;/a&gt; and my
+&lt;a href=&quot;https://github.com/stumpwm/stumpwm&quot; &gt;window manager&lt;/a&gt;, are also written
+in lisp. You can see a trend here.&lt;/p&gt;
+
+&lt;p&gt;Hopefully I&#039;ll be posting more, and some of the contents may even be
+in spanish. Wish me luck.&lt;/p&gt;
 </content> </entry> </feed>

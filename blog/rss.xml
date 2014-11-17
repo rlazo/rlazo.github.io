@@ -1,12 +1,64 @@
 <?xml version="1.0"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"> <channel> <title>Misc ramblings, by rlazo</title> <link>http://rlazo.github.io/blog</link> <atom:link href="http://rlazo.github.io/blog/rss.xml" rel="self" type="application/rss+xml" /> <language>en-us</language> <pubDate>Mon, 17 Nov 2014 01:08:06 +0000</pubDate> <item> <title>Learning some R</title> <link>http://rlazo.github.io/blog/posts/Learning-some-R.html</link> <pubDate>2014-11-16 21:40:10</pubDate> <author>Rodrigo Lazo</author> <guid isPermaLink="true">http://rlazo.github.io/blog/posts/Learning-some-R.html</guid> <category><![CDATA[ programming ]]></category><category><![CDATA[ R ]]></category> <description><![CDATA[ <p>This weekend I've been helping my brother with an issue with a R
-script he needs for his masters. And <em>my God</em>, that was one ugly
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"> <channel> <title>Misc ramblings, by rlazo</title> <link>http://rlazo.github.io/blog</link> <atom:link href="http://rlazo.github.io/blog/rss.xml" rel="self" type="application/rss+xml" /> <language>en-us</language> <pubDate>Mon, 17 Nov 2014 02:00:58 +0000</pubDate> <item> <title>Learning some R</title> <link>http://rlazo.github.io/blog/posts/Learning-some-R.html</link> <pubDate>2014-11-16 21:40:10</pubDate> <author>Rodrigo Lazo</author> <guid isPermaLink="true">http://rlazo.github.io/blog/posts/Learning-some-R.html</guid> <category><![CDATA[ programming ]]></category><category><![CDATA[ R ]]></category> <description><![CDATA[ <p>This weekend I've been helping my brother with an issue with an R
+script he needs for his masters. And <strong>my God</strong>, that was one ugly
 script. It was pretty obvious that the original author, not my
 brother, didn't know very well how to write good scripts, neither was
-interested in learning. A big hairy mess of R code. It was my first
+interested in learning. What a big hairy mess of R code. It was my first
 time working with R and, while I didn't find it as ugly as I
 originally though, I hope that I don't have to mess with it
 too often.</p>
- ]]></description> </item><item> <title>Blogging again, powered by coleslaw</title> <link>http://rlazo.github.io/blog/posts/Blogging-again-powered-by-coleslaw.html</link> <pubDate>2014-11-16 20:40:10</pubDate> <author>Rodrigo Lazo</author> <guid isPermaLink="true">http://rlazo.github.io/blog/posts/Blogging-again-powered-by-coleslaw.html</guid> <category><![CDATA[ blogging ]]></category><category><![CDATA[ coleslaw ]]></category><category><![CDATA[ cl ]]></category> <description><![CDATA[ <p>Now a new blog.</p>
- ]]></description> </item><item> <title>foo</title> <link>http://rlazo.github.io/blog/posts/foo.html</link> <pubDate>2014-11-13 23:55:10</pubDate> <author>Rodrigo Lazo</author> <guid isPermaLink="true">http://rlazo.github.io/blog/posts/foo.html</guid> <category><![CDATA[ bar ]]></category><category><![CDATA[ baz ]]></category> <description><![CDATA[ <p>My post is misc</p>
+
+<p>For those of you that don't know, <a href="http://www.r-project.org/" >R</a> is a
+programming language mostly used for statistics. Actually, from what
+I've read, it's mostly referred to as a <em>software environment</em>. What's
+the difference? Well, it has a
+<a href="http://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop" >REPL</a>
+and it's usually used inside a sort of IDE like
+<a href="http://www.rstudio.com/" >RStudio</a>. But, unlike Python or Lisp, that
+you usally use the REPL for testing and development, but you write
+your <em>real</em> code in a file, in R most of the beginners usually work
+only in the REPL, and the file is more like a history of ran commands
+than a cohesive script. And, because there is a lot of people that
+uses R but are not very interested in programming per-se, the scripts
+are extremely brittle and only work under very specific assumptions,
+there are no comments, a lot of lines are just debugging commands that
+only make sense in the repl, dead variables left from previous
+experiments, and a long etc.</p>
+
+<p>Getting the original code to a readable state took us two days, and
+it's not done yet. While not knowing R did slow us down somewhat
+considerably, the worst part was trying to understand what the code
+was trying to do. On the upside, this was a great opportunity to
+explain to my brother about code readability, de-compsition, comments,
+top-down and bottom-up designs, etc. After all the pain of having to
+work through a great example of what happens if you don't use those
+concepts, he was an eager and learner.</p>
+
+<p>This remind me of some wise words a teacher told me once: <em>&quot;you are
+only going to learn the true value of these good practices the day you
+have to painfully work on a code that doesn't follow them&quot;</em></p>
+
+<p>Amen.</p>
+ ]]></description> </item><item> <title>Blogging again, powered by coleslaw</title> <link>http://rlazo.github.io/blog/posts/Blogging-again-powered-by-coleslaw.html</link> <pubDate>2014-11-16 20:40:10</pubDate> <author>Rodrigo Lazo</author> <guid isPermaLink="true">http://rlazo.github.io/blog/posts/Blogging-again-powered-by-coleslaw.html</guid> <category><![CDATA[ blogging ]]></category><category><![CDATA[ coleslaw ]]></category><category><![CDATA[ cl ]]></category> <description><![CDATA[ <p>Hardly anyone would know that but I used to have another blog @
+rlazo.org, but I no longer have the domain or the blog for that
+matter. I starting anew with this blog using a static blog engine
+written in Common Lisp called
+<a href="https://github.com/redline6561/coleslaw" >coleslaw</a> and
+<a href="https://pages.github.com/" >github pages</a>.</p>
+
+<p>Why using github pages? It's easy, and has far less moving parts than
+any other option I can think off. I don't have a server to manage, and
+the publish blog is static html. The only way of changing the contents
+of the blog is changing them in the repo. So, it's more secure than
+more dynamic options, like wordpress.</p>
+
+<p>Why coleslaw? Well, I'm a fanboy of Common Lisp, and the code isn't
+complicated or long, so making changes, if needed, <em>should be easy
+(TM)</em>. The other two pieces of software that I use the most,
+<a href="http://www.gnu.org/software/emacs/" >my editor</a> and my
+<a href="https://github.com/stumpwm/stumpwm" >window manager</a>, are also written
+in lisp. You can see a trend here.</p>
+
+<p>Hopefully I'll be posting more, and some of the contents may even be
+in spanish. Wish me luck.</p>
  ]]></description> </item> </channel> </rss>
