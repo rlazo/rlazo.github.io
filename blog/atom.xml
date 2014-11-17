@@ -1,3 +1,12 @@
 <?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom"> <title>Misc ramblings, by rlazo</title> <link href="http://rlazo.github.io/blog"/> <link type="application/atom+xml" rel="self" href="http://rlazo.github.io/blog/atom.xml"/> <updated>Sun, 16 Nov 2014 20:32:39 +0000</updated> <author> <name>Rodrigo Lazo</name> </author> <entry> <link type="text/html" rel="alternate" href="http://rlazo.github.io/blog/posts/foo.html"/> <title>foo</title> <published>2014-11-13 23:55:10</published> <updated>2014-11-13 23:55:10</updated> <author> <name>Rodrigo Lazo</name> <uri>http://rlazo.github.io/blog</uri> </author> <content type="html">&lt;p&gt;My post is misc&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"> <title>Misc ramblings, by rlazo</title> <link href="http://rlazo.github.io/blog"/> <link type="application/atom+xml" rel="self" href="http://rlazo.github.io/blog/atom.xml"/> <updated>Mon, 17 Nov 2014 01:08:06 +0000</updated> <author> <name>Rodrigo Lazo</name> </author> <entry> <link type="text/html" rel="alternate" href="http://rlazo.github.io/blog/posts/Learning-some-R.html"/> <title>Learning some R</title> <published>2014-11-16 21:40:10</published> <updated>2014-11-16 21:40:10</updated> <author> <name>Rodrigo Lazo</name> <uri>http://rlazo.github.io/blog</uri> </author> <content type="html">&lt;p&gt;This weekend I&#039;ve been helping my brother with an issue with a R
+script he needs for his masters. And &lt;em&gt;my God&lt;/em&gt;, that was one ugly
+script. It was pretty obvious that the original author, not my
+brother, didn&#039;t know very well how to write good scripts, neither was
+interested in learning. A big hairy mess of R code. It was my first
+time working with R and, while I didn&#039;t find it as ugly as I
+originally though, I hope that I don&#039;t have to mess with it
+too often.&lt;/p&gt;
+</content> </entry><entry> <link type="text/html" rel="alternate" href="http://rlazo.github.io/blog/posts/Blogging-again-powered-by-coleslaw.html"/> <title>Blogging again, powered by coleslaw</title> <published>2014-11-16 20:40:10</published> <updated>2014-11-16 20:40:10</updated> <author> <name>Rodrigo Lazo</name> <uri>http://rlazo.github.io/blog</uri> </author> <content type="html">&lt;p&gt;Now a new blog.&lt;/p&gt;
+</content> </entry><entry> <link type="text/html" rel="alternate" href="http://rlazo.github.io/blog/posts/foo.html"/> <title>foo</title> <published>2014-11-13 23:55:10</published> <updated>2014-11-13 23:55:10</updated> <author> <name>Rodrigo Lazo</name> <uri>http://rlazo.github.io/blog</uri> </author> <content type="html">&lt;p&gt;My post is misc&lt;/p&gt;
 </content> </entry> </feed>

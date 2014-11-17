@@ -1,0 +1,16 @@
+;;;;;
+title: Learning some R
+tags: programming, R
+date: 2014-11-16 21:40:10
+format: md
+;;;;;
+
+This weekend I've been helping my brother with an issue with a R
+script he needs for his masters. And *my God*, that was one ugly
+script. It was pretty obvious that the original author, not my
+brother, didn't know very well how to write good scripts, neither was
+interested in learning. A big hairy mess of R code. It was my first
+time working with R and, while I didn't find it as ugly as I
+originally though, I hope that I don't have to mess with it
+too often.
+
