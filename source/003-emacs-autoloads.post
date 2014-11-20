@@ -1,0 +1,13 @@
+;;;;;
+title: Understanding autoloads
+tags: emacs, emacs.d, 
+date: 2014-11-20 10:40:00
+format: md
+;;;;;
+
+Eventhough I've been working and twicking emacs for over a decade, I somehow managed
+to avoid using autoloads in my code until now. Which, in the bright side, was great
+because (Sebastian Wiesner)[http://www.lunaryorn.com/] recently posted an awesome,
+and very detailed, guide to 
+(Autoloads in Emacs Lisp)[http://www.lunaryorn.com/2014/07/02/autoloads-in-emacs-lisp.html].
+Learning about emacs is getting easier and easier :)
