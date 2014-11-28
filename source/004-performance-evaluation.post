@@ -1,1 +1,34 @@
-https://homes.cs.washington.edu/~bornholt/post/performance-evaluation.html
+;;;;;
+title: Performance evaluation
+tags: performace, benchmarking, cs
+date: 2014-11-27 22:40:00
+format: md
+;;;;;
+
+I read a couple of days ago a blog post by
+[James Bornholt](https://homes.cs.washington.edu/~bornholt), PhD
+Candidate @ UW, about
+[Performance evaluation](https://homes.cs.washington.edu/~bornholt/post/performance-evaluation.html).
+
+His focus seems to be on programming languages and compilers, and the
+article deals mainly with how *details* as minor as linking order can
+affect the performance of an application. He even makes the point that
+a compiler generating two binaries of the same code *does not* result
+in equally performing binaries (with up to 7% variation). This extreme
+case was caused by a bug in the compiler, which can make us think that
+it isn't a good example for the point he's trying to make. Actually,
+in this case, any benchmark of binaries produced by that compiler, in
+the time the bug was present (10 years!), in which the difference is
+around 7%, cannot be considered valid. Mind blowing.
+
+Also, he mentions how benchmarking suites, even if we know that they
+aren't very good to measure real-world performance, are being missued
+to generate almost worthless measurements. In short, a benchmark suite
+runs several cases to try to simulate a variety of scenarios that can
+occur in the real world. But some people are ignoring some of the test
+of the suites, and then assuming that the result of the benchmark is
+meaningful, which is not.
+
+The whole article is not so long and definitely worth reading.
+
+

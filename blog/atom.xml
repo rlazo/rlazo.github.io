@@ -1,5 +1,37 @@
 <?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom"> <title>Misc ramblings, by rlazo</title> <link href="http://rlazo.github.io/blog"/> <link type="application/atom+xml" rel="self" href="http://rlazo.github.io/blog/atom.xml"/> <updated>Mon, 17 Nov 2014 02:00:58 +0000</updated> <author> <name>Rodrigo Lazo</name> </author> <entry> <link type="text/html" rel="alternate" href="http://rlazo.github.io/blog/posts/Learning-some-R.html"/> <title>Learning some R</title> <published>2014-11-16 21:40:10</published> <updated>2014-11-16 21:40:10</updated> <author> <name>Rodrigo Lazo</name> <uri>http://rlazo.github.io/blog</uri> </author> <content type="html">&lt;p&gt;This weekend I&#039;ve been helping my brother with an issue with an R
+<feed xmlns="http://www.w3.org/2005/Atom"> <title>Misc ramblings, by rlazo</title> <link href="http://rlazo.github.io/blog"/> <link type="application/atom+xml" rel="self" href="http://rlazo.github.io/blog/atom.xml"/> <updated>Fri, 28 Nov 2014 01:00:20 -0200</updated> <author> <name>Rodrigo Lazo</name> </author> <entry> <link type="text/html" rel="alternate" href="http://rlazo.github.io/blog/posts/Performance-evaluation.html"/> <title>Performance evaluation</title> <published>2014-11-27 22:40:00</published> <updated>2014-11-27 22:40:00</updated> <author> <name>Rodrigo Lazo</name> <uri>http://rlazo.github.io/blog</uri> </author> <content type="html">&lt;p&gt;I read a couple of days ago a blog post by
+&lt;a href=&quot;https://homes.cs.washington.edu/~bornholt&quot; &gt;James Bornholt&lt;/a&gt;, PhD
+Candidate @ UW, about
+&lt;a href=&quot;https://homes.cs.washington.edu/~bornholt/post/performance-evaluation.html&quot; &gt;Performance evaluation&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;His focus seems to be on programming languages and compilers, and the
+article deals mainly with how &lt;em&gt;details&lt;/em&gt; as minor as linking order can
+affect the performance of an application. He even makes the point that
+a compiler generating two binaries of the same code &lt;em&gt;does not&lt;/em&gt; result
+in equally performing binaries (with up to 7% variation). This extreme
+case was caused by a bug in the compiler, which can make us think that
+it isn&#039;t a good example for the point he&#039;s trying to make. Actually,
+in this case, any benchmark of binaries produced by that compiler, in
+the time the bug was present (10 years!), in which the difference is
+around 7%, cannot be considered valid. Mind blowing.&lt;/p&gt;
+
+&lt;p&gt;Also, he mentions how benchmarking suites, even if we know that they
+aren&#039;t very good to measure real-world performance, are being missued
+to generate almost worthless measurements. In short, a benchmark suite
+runs several cases to try to simulate a variety of scenarios that can
+occur in the real world. But some people are ignoring some of the test
+of the suites, and then assuming that the result of the benchmark is
+meaningful, which is not.&lt;/p&gt;
+
+&lt;p&gt;The whole article is not so long and definitely worth reading.&lt;/p&gt;
+</content> </entry><entry> <link type="text/html" rel="alternate" href="http://rlazo.github.io/blog/posts/Understanding-autoloads.html"/> <title>Understanding autoloads</title> <published>2014-11-20 10:40:00</published> <updated>2014-11-20 10:40:00</updated> <author> <name>Rodrigo Lazo</name> <uri>http://rlazo.github.io/blog</uri> </author> <content type="html">&lt;p&gt;Eventhough I&#039;ve been working and twicking emacs for over a decade, I
+somehow managed to avoid using autoloads in my code until now. Which,
+in the bright side, was great because
+&lt;a href=&quot;http://www.lunaryorn.com/&quot; &gt;Sebastian Wiesner&lt;/a&gt; recently posted an
+awesome, and very detailed, guide to
+&lt;a href=&quot;http://www.lunaryorn.com/2014/07/02/autoloads-in-emacs-lisp.html&quot; &gt;Autoloads in Emacs Lisp&lt;/a&gt;.
+Learning about emacs is getting easier and easier :)&lt;/p&gt;
+</content> </entry><entry> <link type="text/html" rel="alternate" href="http://rlazo.github.io/blog/posts/Learning-some-R.html"/> <title>Learning some R</title> <published>2014-11-16 21:40:10</published> <updated>2014-11-16 21:40:10</updated> <author> <name>Rodrigo Lazo</name> <uri>http://rlazo.github.io/blog</uri> </author> <content type="html">&lt;p&gt;This weekend I&#039;ve been helping my brother with an issue with an R
 script he needs for his masters. And &lt;strong&gt;my God&lt;/strong&gt;, that was one ugly
 script. It was pretty obvious that the original author, not my
 brother, didn&#039;t know very well how to write good scripts, neither was
